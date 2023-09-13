@@ -68,6 +68,7 @@ From the [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.en.ht
 * [GIMP](https://www.gimp.org/)
 * [Inkscape](https://inkscape.org/)
 * [Blender](https://www.blender.org/)
+* [Godot Engine](https://godotengine.org/)
 
 The ethos of free software encourages the hacking culture that was extremely prevalant during the early days of the internet. Free software is now the foundation that underpins most of the modern computing world today!
 
@@ -141,15 +142,23 @@ A desktop environment is a collection of programs that provide a graphical user 
 
 ## 1950s - 1970s : Computers as an Area of Research Drives Collaboration
 
-Software was often shared freely between universities and research labs. Some universities even placed restrictions on the usage of non-free software, requiring published source code in used programs. A prime example of collaboration in this time period is the creation of [MULTICS](https://en.wikipedia.org/wiki/Multics) (Multiplexed Information and Computing Service), which was a joint effort between MIT, Bell Labs (now AT&T), and General Electric started in 1964 to create a multi-user operating system.
+Software was often shared freely between universities and research labs. Some universities even placed restrictions on the usage of non-free software, requiring published source code in used programs.
+
+A prime example of collaboration in this time period is the creation of [MULTICS](https://en.wikipedia.org/wiki/Multics) (Multiplexed Information and Computing Service), which was a joint effort between MIT, Bell Labs (now AT&T), and General Electric started in 1964 to create a multi-user operating system.
 
 ## 1970s - 1980s : Growth of Proprietary Software and UNIX
 
-Building software primarily for market sale gave system developers incentive to keep their software proprietary - normally providing binary distributions that are hard to analyze and study. UNIX, the most widely used multitasking multiuser operating system in academic circles, and eventually the corporate world, at the time was released as proprietary software by Bell Labs.
+Building software primarily for market sale gave system developers incentive to keep their software proprietary, commonly providing only binary distributions that are hard to analyze and study.
 
-In the late 1970's, a group of programmers at the University of California, Berkeley, began work on a free clone of UNIX, aptly named Berkeley Software Distribution (BSD). Unfortunately it eventually came under legal trouble from AT&T in 1992 during the "UNIX wars".
+Unix (inspired by and named after MULTICS) became the most widely used multitasking multiuser operating system in academic circles, and eventually the entire corporate world. At the time was released as proprietary software by Bell Labs.
 
-An interesting milestone: in 1980, copyright law was amended to protect software.
+## 1980s - 1990s : BSD and the Unix Wars
+
+In the late 1970's, there was a group of programmers at the University of California, Berkeley who ran into some frustrating issues with the proprietary version of Research Unix they had been given, creating the Berkeley Software Distribution (BSD). Over many years, the students added a variety of new features while still under the oppressive proprietary license, culminating in 4.3BSD.
+
+Eventually, the students decided they'd had enough and began replacing all proprietary elements of BSD with open-source components, freely distributing their results as Net/2 in 1991.
+
+Meanwhile, AT&T had been working on its own versions of Unix, including System III and System V (the competition between BSD and System V was intense, and is called "Unix Wars"). AT&T decided to take legal action against BSD, trying to claim copyright over BSD. While this motion failed, given that no actual Unix source code was distributed, it did stunt work on BSD.
 
 ---
 
@@ -157,17 +166,19 @@ An interesting milestone: in 1980, copyright law was amended to protect software
 
 ## 1980s - 1990s : The GNU Project, POSIX as a Standard
 
-Richard Stallman, tired of the new trends of constraints on software, starts the GNU ("GNU's Not Unix") project in 1983 to shift the software development world back to "hacking culture". He creates GNU, aiming to create a complete operating system entirely built with free software. In 1985, Stallman also creates the Free Software Foundation (FSF) to promote the use of free software.
+Richard Stallman, tired of the new trends of constraints on software, started the GNU ("GNU's Not Unix") project in 1983 to shift the software development world back to "hacking culture". He created GNU, aiming to create a complete operating system entirely built with free software. In 1985, Stallman also created the Free Software Foundation (FSF) to promote and advocate for the use of free software.
 
-The GNU project introduced the idea of copyleft, which would allow usage of the software under any purpose, even commercially, so long as the source code was made available with the software.
+The GNU project also introduced the term "copyleft", a novel form of software licensing which allows usage of the software under any purpose, even commercially, so long as the source code was made available with the software. This inspired the Creative Commons family of licenses.
 
 In 1988 the POSIX release was standardized to allow for compatibility between all UNIX-like operating systems. This was a major milestone for the free software movement, as it allowed for the creation of free UNIX-like operating systems that could run standard software.
 
 ## 1990s - Present : Linux and the Free Software Movement
 
-In 1991 Linus Torvalds releases his "hobby project" - the Linux kernel, built with the the GNU tools. Initially released under a proprietary license, Linus later moves to the GNU General Public License (GPL) in 1992.
+In 1991, in the midst of the Unix Wars and during the BSD Lawsuit, Linus Torvalds releases his "hobby project" - the Linux kernel, built with the the GNU tools. Initially released under a proprietary license, Linus later moved to the GNU General Public License (GPL) in 1992, the license under which it remains today.
 
 Today, the FSF and the GNU project are still very active, and the Linux kernel is arguably the most used piece of free software in the world.
+
+BSD is also still going strong, with multiple open source projects picking up where it left off, including FreeBSD, NetBSD, and OpenBSD.
 
 ---
 
