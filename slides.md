@@ -7,9 +7,10 @@ defmodule IntroMeeting do
   def here(you) do
     you
     |> relax
-    |> learn_about(:what_fslc_does)
-    |> learn_about(:free_software)
-    |> learn_about(:linux)
+    |> add_to_inventory(:pizza_slice)
+    |> learn_about(:usufslc) # from Lizzy
+    |> learn_about(:free_software) # from Kyler
+    |> learn_about(:linux) # from Richard
   end
 end
 ```
@@ -18,37 +19,69 @@ end
 
 # Names & People
 
-| Name           | Discord       | Role               |
-|----------------|---------------|--------------------|
-| Erik Falor     | @fadein       | Advisor            |
-|----------------|---------------|--------------------|
-| Elizabeth Hunt | @simponic     | President          |
-|----------------|---------------|--------------------|
-| Kyler Nelson   | @kytech       | Vice President     |
-|----------------|---------------|--------------------|
-| Richard Snider | @CodeTriangle | Secretary          |
-|----------------|---------------|--------------------|
+| Name                   | Discord         | Role                 |
+| ---------------------- | --------------- | -------------------- |
+| Erik Falor             | @fadein         | Advisor              |
+| ----------------       | --------------- | -------------------- |
+| Elizabeth (Lizzy) Hunt | @simponic       | President            |
+| ----------------       | --------------- | -------------------- |
+| Kyler Nelson           | @kytech         | Vice President       |
+| ----------------       | --------------- | -------------------- |
+| Richard Snider         | @CodeTriangle   | Secretary            |
+| ----------------       | --------------- | -------------------- |
+| Ethan Payne            | @phat_sumo      | Legend               |
+| ----------------       | --------------- | -------------------- |
 
 ---
 
-# Cool Stuff from the FSLC Club
+# About the FSLC
 
-Not only are we a community of free software and linux lovers, a lot of us are hackers and tinkerers who make new stuff, teach old stuff new tricks, and sometimes break stuff (because that can be fun too!). Many of us tinker with both hardware and software. Here's a small sample of some of what we have built using free software (and/or our own hacking on things).
+We're a group of students enthusiastic about free software enthusiasts; we're very passionate about our machines, and what's on them.
+
+The FSLC has been around since at _least_ 1999, according to the original [club constitution](https://web.archive.org/web/20011120092219/http://fslc.usu.edu/about/constitution.html) (which I found via diving deep into the Wayback Machine and "The Statesman" archives).
+
+It was popular enough at the time to attract Richard Stallman to perform a talk with an "audience of 100s", and stayed strong for about a decade. After, though, there was unfortunately a period for several years in which the FSLC saw little to no activity.
+
+It wasn't until Ethan Payne started it back up in 2017 that the club was brought back from the dead.
+
+---
+
+# Cool Stuff from the FSLC
+
+Not only are we a community of free software and Linux lovers, a lot of us are hackers and tinkerers; we make new stuff, teach old stuff new tricks, and sometimes break stuff (because that can be fun too!). Many of us tinker with both hardware and software.
 
 ## FSLC Club Software
 
-* USUPrintCL - Because printing on campus should support Linux and ChromeOS, dang it!
-* [linux.usu.edu](https://linux.usu.edu) - Club website
-* Trongleposting - World's best chat message full of glorious easter-eggs, perfect for memeing
+We have a github @ [github.com/usufslc](https://github.com/USUFSLC)!
 
-## Projects from Club Members
+- [linux.usu.edu](https://linux.usu.edu) - A good time to call out the official website! This was our original domain way back in 1999.
+- [USUPrintCL](https://print.linux.usu.edu) - Because printing on campus should support Linux and ChromeOS, dang it!
+- [TronglePosting](https://trongleposting.linux.usu.edu) - World's best chat message full of glorious easter-eggs, perfect for memeing
+- [CheSSH](https://chessh.linux.usu.edu) - Multiplayer chess on the command-line (more on this in our SSH night meeting!)
 
-* CheSSH | Lizzy Hunt - Multiplayer chess on the command-line (more on this in our SSH night meeting!)
-* JoinLater - Since eduroam's JoinNow on Linux is so hopelessly broken, we have JoinLater!
+## Projects Associated w Club Members
 
-## Other Things we Do
+- JoinLater | Brigham - Since eduroam's JoinNow on Linux is so hopelessly jank, our wonderful @xeyler has created JoinLater!
 
-Have an idea you want to explore, but don't know where to start? Diving into Linux or other free software, but you're feeling a bit stuck or lost? Just want to chat about some cool tech, interesting gadgets, tech news, and more? Our Discord server is our club's hub for most of our club communication. We always enjoy helping others learn and discover free software and technology, so questions are always welcome. We even have a dedicated tech support channel if you run into roadblocks or issues while using Linux or other software. We've also got a great memes channel :)
+---
+
+# Other Things we Do
+
+Have an idea you want to explore, but don't know where to start? Diving into Linux or other free software, but you're feeling a bit stuck or lost? Just want to chat about some cool tech, interesting gadgets, tech news, and more?
+
+Our Discord server is our club's hub for most of our club communication. We always enjoy helping others learn and discover free software and technology, so questions are always welcome. _We even have a dedicated tech support channel if you run into roadblocks or issues while using Linux or other software, and of course, we're all welcome to beginners_.
+
+We've also got a great memes channel :) (and a small handful of "internal" memes).
+
+---
+
+# Call Out - Server Reservations
+
+We are planning on doing VM reservations with the large number of boxes we own. While still in the process of building out the infra, we do have complete ownership of the "linux.usu.edu" domain on the OpenIPAM.
+
+If you want to own "https://<yournamehere>.linux.usu.edu", stay tuned in the coming month(s)!
+
+I'll now hand it over to @Kytech, to convince you why you should care about Free Software in the first place.
 
 ---
 
@@ -56,19 +89,19 @@ Have an idea you want to explore, but don't know where to start? Diving into Lin
 
 From the [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.en.html):
 
-> "Free software" means software that respects users' freedom and community. Roughly, it means that the *users have the freedom to run, copy, distribute, study, change and improve the software*. Thus, "free software" is a matter of liberty, not price. To understand the concept, you should think of "free" as in "free speech," not as in "free beer." We sometimes call it "libre software," borrowing the French or Spanish word for "free" as in freedom, to show we do not mean the software is gratis.
+> "Free software" means software that respects users' freedom and community. Roughly, it means that the _users have the freedom to run, copy, distribute, study, change and improve the software_. Thus, "free software" is a matter of liberty, not price. To understand the concept, you should think of "free" as in "free speech," not as in "free beer." We sometimes call it "libre software," borrowing the French or Spanish word for "free" as in freedom, to show we do not mean the software is gratis.
 
 ## Free Software You've Probably Heard of
 
-* [Linux](https://www.kernel.org/)
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* [Open Broadcaster Software](https://obsproject.com/)
-* [VLC](https://www.videolan.org/vlc/)
-* [Audacity](https://www.audacityteam.org/)
-* [GIMP](https://www.gimp.org/)
-* [Inkscape](https://inkscape.org/)
-* [Blender](https://www.blender.org/)
-* [Godot Engine](https://godotengine.org/)
+- [Linux](https://www.kernel.org/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Open Broadcaster Software](https://obsproject.com/)
+- [VLC](https://www.videolan.org/vlc/)
+- [Audacity](https://www.audacityteam.org/)
+- [GIMP](https://www.gimp.org/)
+- [Inkscape](https://inkscape.org/)
+- [Blender](https://www.blender.org/)
+- [Godot Engine](https://godotengine.org/)
 
 The ethos of free software encourages the hacking culture that was extremely prevalant during the early days of the internet. Free software is now the foundation that underpins most of the modern computing world today!
 
@@ -76,43 +109,41 @@ The ethos of free software encourages the hacking culture that was extremely pre
 
 # Why is Free Software a Big Deal?
 
-Other than the fact that most "free software" is actually free of charge (*nice*), free software does all the following:
+Other than the fact that most "free software" is actually free of charge (_nice_), free software does all the following:
 
-* Provides the OS for 98.1% of the world's top million servers (96.3% Linux, 1.8% FreeBSD)
-  * AWS, Azure, and Google Cloud use Linux as their OS of choice
-* Provides the core for the world's most popular mobile phone OS (Android)
-  * Android is a Linux-based OS, developed and maintained by Google
-* Powers space vehicles, like Inginuity (Inginuity is powered by Linux - first powered, controlled flight on another planet)
-* Runs almost all supercomputers and many robots
-* Provides the core backbone of the world-wide web
+- Provides the OS for 98.1% of the world's top million servers (96.3% Linux, 1.8% FreeBSD)
+  - AWS, Azure, and Google Cloud use Linux as their OS of choice
+- Provides the core for the world's most popular mobile phone OS (Android)
+  - Android is a Linux-based OS, developed and maintained by Google
+- Powers space vehicles, like Inginuity (Inginuity is powered by Linux - first powered, controlled flight on another planet)
+- Runs almost all supercomputers and many robots
+- Provides the core backbone of the world-wide web
 
 ## Cool Things You Can Do With Free Software
 
-* Run your own web server
-* Host a game server for your friends
-* Breathe new life into an old computer
-* Access your computer from anywhere in the world
-* Become a master at the OS used to run most software written and used by engineers
-  * Not only does most of what a software engineer write end up deployed to Linux, but many other engineering fields use Linux extensively.
-* Make your computer do what you wish it always did
-  * That includes making it look and work however you want if you're super into customization
+- Run your own web server
+- Host a game server for your friends
+- Breathe new life into an old computer
+- Access your computer from anywhere in the world
+- Become a master at the OS used to run most software written and used by engineers
+  - Not only does most of what a software engineer write end up deployed to Linux, but many other engineering fields use Linux extensively.
+- Make your computer do what you wish it always did
+  - That includes making it look and work however you want if you're super into customization
 
 ## Crazier Things You Can Do With Free Software
 
-* Make it so you can run a python interpreter on your phone (Termux on Android)
-* Make things do stuff that it was never intended to do
-  * Like make a [Wii](https://www.youtube.com/watch?v=mrdR43-sqKs) or an [OG iPod](http://www.ipodlinux.org/) run Linux
-  * Trick your car into believing that a [raspberry pi is an ipod](https://github.com/Kytech/ipod) to add bluetooth
-* Look like a "real hacker"
-* And so much more
-
+- Make it so you can run a python interpreter on your phone (Termux on Android)
+- Make things do stuff that it was never intended to do
+  - Like make a [Wii](https://www.youtube.com/watch?v=mrdR43-sqKs) or an [OG iPod](http://www.ipodlinux.org/) run Linux
+  - Trick your car into believing that a [raspberry pi is an ipod](https://github.com/Kytech/ipod) to add bluetooth
+- Look like a "real hacker"
+- And so much more
 
 ---
 
 # A Little Bit of Terminology
 
 In addition to the term "free software", there's a few other terms that you'll often hear. Just to make sure everyone knows what we are talking about, here's some common terns:
-
 
 ## What is a "Terminal"?
 
@@ -128,13 +159,13 @@ A desktop environment is a collection of programs that provide a graphical user 
 
 ## Additional Terminology
 
-* Software License - Determines who can use a piece of software and how. Good ones give you permission to do things that you wouldn't be able to do before.
-* Open Source - Code that makes its source code available to the public. (Think stuff on GitHub)
-* FOSS - Free and Open Source Software. Software that is both "free software" meaning the sense that it grants you lots of freedom in what it permits you to do and is open source.
-  * Not all open source code is "free software" because it may not allow you to have certain freedoms in how the code is used (ex. can't redistribute it to someone else). Think free as in freedom, not free as in no money.
-* Proprietary software - Software where you can't do anything other than use it as it is given to you. Opposite of free software and is very typical for paid software.
-* Distro - A distribution of Linux (more on Linux in a moment)
-* Terminal/Shell/Command-Line - Typically, when someone says this, they're referring to the text-based command-line interface on a computer. There are slight differences between each of these, but we'll spare you the details.
+- Software License - Determines who can use a piece of software and how. Good ones give you permission to do things that you wouldn't be able to do before.
+- Open Source - Code that makes its source code available to the public. (Think stuff on GitHub)
+- FOSS - Free and Open Source Software. Software that is both "free software" meaning the sense that it grants you lots of freedom in what it permits you to do and is open source.
+  - Not all open source code is "free software" because it may not allow you to have certain freedoms in how the code is used (ex. can't redistribute it to someone else). Think free as in freedom, not free as in no money.
+- Proprietary software - Software where you can't do anything other than use it as it is given to you. Opposite of free software and is very typical for paid software.
+- Distro - A distribution of Linux (more on Linux in a moment)
+- Terminal/Shell/Command-Line - Typically, when someone says this, they're referring to the text-based command-line interface on a computer. There are slight differences between each of these, but we'll spare you the details.
 
 ---
 
@@ -190,11 +221,11 @@ Linux is a free and open source operating system kernel - the core of the operat
 
 Linux distributions are full operating systems built on top of the Linux kernel, often bundled with free software. Some popular distributions include:
 
-* [Ubuntu](https://ubuntu.com/)
-* [Debian](https://www.debian.org/)
-* [Fedora](https://getfedora.org/)
-* [Arch Linux](https://www.archlinux.org/)
-* [EndeavourOS](https://endeavouros.com/)
+- [Ubuntu](https://ubuntu.com/)
+- [Debian](https://www.debian.org/)
+- [Fedora](https://getfedora.org/)
+- [Arch Linux](https://www.archlinux.org/)
+- [EndeavourOS](https://endeavouros.com/)
 
 Distributions can be built on top of other distributions, and are often referred to as "derivatives". For example, Ubuntu is a derivative of Debian, and EndeavourOS is a derivative of Arch Linux.
 
@@ -225,8 +256,9 @@ Can be extremely easy to use, or very power-user focused. Runs on anything from 
 # It's In-Demand
 
 Linux skills are one of the most sought-after in the industry right now
-* Critical knowledge for those interested in Dev-Ops or Cloud Infrastructure
-* Stand-out skills to have for software engineering - Provides a strong differentiating skill
+
+- Critical knowledge for those interested in Dev-Ops or Cloud Infrastructure
+- Stand-out skills to have for software engineering - Provides a strong differentiating skill
 
 ---
 
@@ -266,7 +298,7 @@ Saved the most heated topic for last :).
 
 A text editor is a program that allows you to edit source code and other text files.
 
-The best is obviously Vim (or neovim), and everyone who disagrees can face ASCII MAN:  ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з=(•̀益•́)=ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿.
+The best is obviously Vim (or neovim), and everyone who disagrees can face ASCII MAN: ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з=(•̀ 益•́)=ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿.
 
 However, some utterly deranged people swear by Emacs as if their lives depended on it.
 
@@ -277,4 +309,3 @@ And then there are the people who use actual IDEs. They are the ones who actuall
 # The End
 
 Go out and seek your FOSS and Linux adventure - it's calling to you!
-
