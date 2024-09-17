@@ -8,9 +8,8 @@ defmodule IntroMeeting do
     you
     |> relax
     |> add_to_inventory(:pizza_slice)
-    |> learn_about(:usufslc) # from Lizzy
-    |> learn_about(:free_software) # from Kyler
-    |> learn_about(:linux) # from Richard
+    |> learn_about(:usufslc)
+    |> learn_about(:linux)
   end
 end
 ```
@@ -23,11 +22,9 @@ end
 | ---------------------- | --------------- | -------------------- |
 | Erik Falor             | @fadein         | Advisor              |
 | ----------------       | --------------- | -------------------- |
-| Elizabeth (Lizzy) Hunt | @simponic       | President            |
+| Richard Snider         | @CodeTriangle   | President            |
 | ----------------       | --------------- | -------------------- |
-| Kyler Nelson           | @kytech         | Vice President       |
-| ----------------       | --------------- | -------------------- |
-| Richard Snider         | @CodeTriangle   | Secretary            |
+| Brigham Campbell       | @xeyler         | Vice President       |
 | ----------------       | --------------- | -------------------- |
 | Ethan Payne            | @phat_sumo      | Legend               |
 | ----------------       | --------------- | -------------------- |
@@ -38,7 +35,7 @@ end
 
 We're a group of students enthusiastic about free software enthusiasts; we're very passionate about our machines, and what's on them.
 
-The FSLC has been around since at _least_ 1999, according to the original [club constitution](https://web.archive.org/web/20011120092219/http://fslc.usu.edu/about/constitution.html) (which I found via diving deep into the Wayback Machine and "The Statesman" archives).
+The FSLC has been around since at _least_ 1999, according to the original [club constitution](https://web.archive.org/web/20011120092219/http://fslc.usu.edu/about/constitution.html) (which we found via diving deep into the Wayback Machine and "The Statesman" archives).
 
 It was popular enough at the time to attract Richard Stallman to perform a talk with an "audience of 100s", and stayed strong for about a decade. After, though, there was unfortunately a period for several years in which the FSLC saw little to no activity.
 
@@ -61,7 +58,7 @@ We have a github @ [github.com/usufslc](https://github.com/USUFSLC)!
 
 ## Projects Associated w Club Members
 
-- JoinLater | Brigham - Since eduroam's JoinNow on Linux is so hopelessly jank, our wonderful @xeyler has created JoinLater!
+- JoinLater | Brigham - Since eduroam's JoinNow on Linux is so hopelessly jank, @xeyler has created JoinLater!
 
 ---
 
@@ -80,8 +77,6 @@ We've also got a great memes channel :) (and a small handful of "internal" memes
 We are planning on doing VM reservations with the large number of boxes we own. While still in the process of building out the infra, we do have complete ownership of the "linux.usu.edu" domain on the OpenIPAM.
 
 If you want to own "https://<yournamehere>.linux.usu.edu", stay tuned in the coming month(s)!
-
-I'll now hand it over to @Kytech, to convince you why you should care about Free Software in the first place.
 
 ---
 
