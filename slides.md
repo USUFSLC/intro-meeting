@@ -1,6 +1,6 @@
 # Welcome to Free Software and Linux Club!
 
-This meeting should be streaming at [https://linux.usu.edu/streams](https://linux.usu.edu/streams).
+This meeting should be streaming at [https://stream.linux.usu.edu](https://stream.linux.usu.edu/).
 
 ```elixir
 defmodule IntroMeeting do
@@ -52,13 +52,22 @@ Not only are we a community of free software and Linux lovers, a lot of us are h
 We have a github @ [github.com/usufslc](https://github.com/USUFSLC)!
 
 - [linux.usu.edu](https://linux.usu.edu) - A good time to call out the official website! This was our original domain way back in 1999.
-- [USUPrintCL](https://print.linux.usu.edu) - Because printing on campus should support Linux and ChromeOS, dang it!
-- [TronglePosting](https://trongleposting.linux.usu.edu) - World's best chat message full of glorious easter-eggs, perfect for memeing
-- [CheSSH](https://chessh.linux.usu.edu) - Multiplayer chess on the command-line (more on this in our SSH night meeting!)
+- [stream.linux.usu.edu](https://stream.linux.usu.edu/watch/) - Dockerized service to stream FSLC meetings.
+- [JoinLater](https://github.com/xeyler/joinlater) - Since eduroam's JoinNow on Linux is so hopelessly jank, @xeyler has created JoinLater!
 
-## Projects Associated w Club Members
+---
 
-- JoinLater | Brigham - Since eduroam's JoinNow on Linux is so hopelessly jank, @xeyler has created JoinLater!
+# We Present on Free Software and Learn Together
+
+[https://forms.gle/7xS5avngKivdrA7V8](https://forms.gle/7xS5avngKivdrA7V8) - We want to hear from you! If there's something you'd like to present on, fill out this form!
+
+We recognize that members of the Club have different levels of experience with Linux. During our weekly meetings, we spend time learning about topics of varying levels of complexity. We're excited to learn about the following topics with you:
+
+- Sept 27 - The shell
+- Oct 2 - SSH (The "secure" shell)
+- Oct 9 - Debian installfest
+
+We want to spend our meetings learning together! Let us know what you'd like to learn about or what topics you find confusing.
 
 ---
 
@@ -69,14 +78,6 @@ Have an idea you want to explore, but don't know where to start? Diving into Lin
 Our Discord server is our club's hub for most of our club communication. We always enjoy helping others learn and discover free software and technology, so questions are always welcome. _We even have a dedicated tech support channel if you run into roadblocks or issues while using Linux or other software, and of course, we're all welcome to beginners_.
 
 We've also got a great memes channel :) (and a small handful of "internal" memes).
-
----
-
-# Call Out - Server Reservations
-
-We are planning on doing VM reservations with the large number of boxes we own. While still in the process of building out the infra, we do have complete ownership of the "linux.usu.edu" domain on the OpenIPAM.
-
-If you want to own "https://<yournamehere>.linux.usu.edu", stay tuned in the coming month(s)!
 
 ---
 
