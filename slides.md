@@ -3,7 +3,7 @@ fontsize: 9pt
 ---
 # Welcome to Free Software and Linux Club!
 
-This meeting should be streaming at [https://stream.linux.usu.edu](https://stream.linux.usu.edu/).
+This meeting should be streaming at [https://linux.usu.edu/stream](https://linux.usu.edu/stream).
 
 ```elixir
 defmodule IntroMeeting do
@@ -53,19 +53,19 @@ We have a github @ [github.com/usufslc](https://github.com/USUFSLC)!
 
 - [linux.usu.edu](https://linux.usu.edu) - A good time to call out the official website! This was our original domain way back in 1999.
 - [stream.linux.usu.edu](https://stream.linux.usu.edu/watch/) - Dockerized service to stream FSLC meetings.
-- [JoinLater](https://github.com/xeyler/joinlater) - Since eduroam's JoinNow on Linux is so hopelessly jank, @xeyler has created JoinLater!
+- [JoinLater](https://github.com/xeyler/joinlater) - Since eduroam's JoinNow on Linux is so hopelessly jank, Brigham has created JoinLater!
 
 ---
 
 # We Present on Free Software and Learn Together
 
-[https://forms.gle/7xS5avngKivdrA7V8](https://forms.gle/7xS5avngKivdrA7V8) - We want to hear from you! If there's something you'd like to present on, fill out this form!
+We want to hear from you! If there's something you'd like to present on, message leadership on Discord or drop a message in #meeting-ideas on Discord!
 
 We recognize that members of the Club have different levels of experience with Linux. During our weekly meetings, we spend time learning about topics of varying levels of complexity. We're excited to learn about the following topics with you:
 
-- Sept 27 - The shell
-- Oct 2 - SSH (The "secure" shell)
-- Oct 9 - Debian installfest
+- Sept 9 - Shell lightning talks (sign up to present!)
+- Sept 16 - SSH (The "secure" shell)
+- Sept 23 - Desktop showcase (sign up to share your rice!)
 
 We want to spend our meetings learning together! Let us know what you'd like to learn about or what topics you find confusing.
 
